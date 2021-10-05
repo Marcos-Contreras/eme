@@ -2,9 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Product;
-use App\Models\Provider;
-use App\Models\Category;
+
 use Illuminate\Http\Request;
 use App\Http\Requests\Product\StoreRequest;
 use App\Http\Requests\Product\UpdateRequest;

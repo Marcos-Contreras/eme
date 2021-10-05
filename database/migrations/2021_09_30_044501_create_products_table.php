@@ -25,7 +25,7 @@ class CreateProductsTable extends Migration
 
             //Estado (se puede ver o no)
             $table->decimal('sell_price', 12,2);
-            $table->enum('status', ['ACTIVATE', 'DEACTIVATED'])->default('ACTIVE');
+            $table->enum('status', ['ACTIVE', 'DEACTIVATED'])->default('ACTIVE');
 
             //Llaves foráneas
             //Relación con categorías
